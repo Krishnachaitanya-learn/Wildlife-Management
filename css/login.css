@@ -1,0 +1,317 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../images/african-lion.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  font-size: 15px;
+}
+.box {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 10%;
+  width: 75vh;
+  margin-left: 5%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 120%;
+  box-shadow: 0px 0px 10px 2px rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+.form {
+  left: 25%;
+  height: 50px;
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.form input {
+  width: 100%;
+  height: 100%;
+  color: rgb(199, 205, 224);
+  padding-top: 20px;
+  border: none;
+  outline: none;
+}
+
+.form label {
+  position: absolute;
+  bottom: 0px;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+
+  pointer-events: none;
+
+  border-bottom: 1px solid #ffffff;
+}
+
+.form label::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0px;
+  bottom: -1px;
+  border-bottom: 3px solid #11995a;
+  transition: transform 0.7s ease;
+  transform: translateX(-100%);
+  -webkit-transition: transform 0.7s ease;
+  -moz-transition: transform 0.7s ease;
+  -ms-transition: transform 0.7s ease;
+  -o-transition: transform 0.7s ease;
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+}
+
+.content-name {
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  transition: all 0.7s ease;
+  -webkit-transition: all 0.7s ease;
+  -moz-transition: all 0.7s ease;
+  -ms-transition: all 0.7s ease;
+  -o-transition: all 0.7s ease;
+}
+
+.form input:focus + .label-name .content-name,
+.form :valid + .label-name .content-name {
+  transform: translateY(-150%);
+  -webkit-transform: translateY(-150%);
+  -moz-transform: translateY(-150%);
+  -ms-transform: translateY(-150%);
+  -o-transform: translateY(-150%);
+  font-size: 14px;
+  color: #11995a;
+}
+
+.form input:focus + .label-name::after,
+.form input:valid + .label-name::after {
+  transform: translateX(0%);
+  -webkit-transform: translateX(0%);
+  -moz-transform: translateX(0%);
+  -ms-transform: translateX(0%);
+  -o-transform: translateX(0%);
+}
+
+input {
+  width: 300px;
+  border: 0px;
+  height: 22px;
+  background-color: rgba(0, 0, 0, 0);
+}
+#user {
+  width: 10px;
+  margin: 5px;
+  padding: 2px;
+  height: 10px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+#employee {
+  width: 10px;
+  margin-left: 20px;
+  margin-right: 5px;
+  padding: 2px;
+  height: 10px;
+  transition: all 0.3s ease;
+}
+
+label {
+  color: #ffffff;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+a {
+  text-decoration: none;
+}
+#new-user {
+  color: #74c7ee;
+  margin-left: 30px;
+  font-size: 85%;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+#forgot {
+  color: #74c7ee;
+  font-size: 85%;
+  transition: all 0.3s ease;
+}
+.btn {
+  display: inline-block;
+  margin: 10px 20px;
+  width: 100px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 85%;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 200px;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  -ms-border-radius: 200px;
+  -o-border-radius: 200px;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+  -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+  -moz-transition: background-color 0.2s, border 0.2s, color 0.2s;
+  -ms-transition: background-color 0.2s, border 0.2s, color 0.2s;
+  -o-transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+.btn-full {
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 30px;
+  color: #bdf1bc;
+  border: 1px solid #11995a;
+  box-shadow: 0px 0px 10px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.select {
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  color: white;
+  fill: aqua;
+}
+
+/* Icon styling */
+.home {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px 1px;
+  padding-top: 12px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 5px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.home:hover {
+  border-color: #11995a;
+  z-index: 1;
+  cursor: pointer;
+}
+.home-redirect {
+  color: #ffffff;
+}
+.home-redirect:hover {
+  color: #11995a;
+}
+
+/*
+.home:hover .home-redirect {
+  color: #ffffff;
+}
+.home:hover {
+  background-color: #11995a;
+} */
+
+/* On Hover */
+
+.box:hover {
+  box-shadow: 0px 0px 5px 2px;
+}
+label:hover {
+  font-size: 110%;
+  padding-bottom: 5px;
+  color: #bdf1bc;
+  border-bottom: 1px solid #bdf1bc;
+}
+#new-user:hover {
+  color: #11995a;
+  font-size: 95%;
+}
+.info:hover {
+  color: #bdf1bc;
+  font-size: 105%;
+}
+#forgot:hover {
+  font-size: 95%;
+  color: #11995a;
+}
+.btn:hover {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.btn-full:hover {
+  width: 105px;
+  height: 34px;
+  font-size: 95%;
+  background-color: #195df0;
+  color: aliceblue;
+  border: 1px solid #195df0;
+  box-shadow: 0px 0px 10px;
+}
+
+/* Screen adjustment */
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-size: 100vh;
+    height: 100vh;
+  }
+  .box {
+    width: 75vw;
+  }
+}
+@media only screen and (max-width: 1180px) {
+  body {
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+  }
+  .box {
+    width: 50vw;
+  }
+}
+@media only screen and (max-width: 630px) {
+  body {
+    background-size: cover;
+  }
+  .box {
+    width: 400px;
+  }
+}

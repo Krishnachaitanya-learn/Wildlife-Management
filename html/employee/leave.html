@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../css/leave.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="nav-links">
+          <li class="ele">
+            <a href="./profile.html">Profile</a>
+          </li>
+          <li class="ele">
+            <a href="./profile.html">Project</a>
+          </li>
+          <li class="ele">
+            <a href="./leave.html">Leave</a>
+          </li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+    </header>
+    <section>
+      <div class="box">
+        <div class="home">
+          <a href="./profile.html" class="home-redirect"
+            ><i class="material-icons">home</i></a
+          >
+        </div>
+        <form action="post" class="login">
+          <div class="form">
+            <input type="number" name="emp-id" autocomplete="off" required />
+            <label for="emp-id" class="label-name">
+              <span class="content-name">Employee ID :</span>
+            </label>
+          </div>
+          <br />
+          <div class="form">
+            <input
+              type="date"
+              name="from"
+              min="2020-05-01"
+              autocomplete="off"
+              required
+            />
+            <label for="from" class="label-name">
+              <span class="content-name date">From :</span>
+            </label>
+          </div>
+          <br />
+          <div class="form">
+            <input
+              type="date"
+              name="to"
+              min="2020-05-01"
+              autocomplete="off"
+              required
+            />
+            <label for="to" class="label-name">
+              <span class="content-name date">To :</span>
+            </label>
+          </div>
+          <br />
+          <div class="form">
+            <input type="text" name="place" autocomplete="off" required />
+            <label for="place" class="label-name">
+              <span class="content-name">Place :</span>
+            </label>
+          </div>
+          <br />
+          <div class="existed">
+            <a href="./leave.html" id="old-user">Reset ..!</a>
+          </div>
+          <br />
+          <div class="login">
+            <input
+              type="button"
+              value="submit"
+              id="submit"
+              class="btn btn-full"
+            />
+          </div>
+        </form>
+      </div>
+    </section>
+    <script src="../../js/app.js"></script>
+  </body>
+</html>

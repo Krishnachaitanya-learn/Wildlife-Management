@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../css/profile.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="nav-links">
+          <li class="ele">
+            <a href="./profile.html">Profile</a>
+          </li>
+          <li class="ele">
+            <a href="./project.html">Project</a>
+          </li>
+          <li class="ele">
+            <a href="./leave.html">Leave</a>
+          </li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+    </header>
+    <section>
+      <div class="profile-info">
+        <div class="box info">
+          <div class="display">
+            <table>
+              <tr>
+                <td>
+                  Name :
+                </td>
+                <td>
+                  <p id="name">Name</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Employee-ID :
+                </td>
+                <td>
+                  <p id="emp-id">Emp-ID</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Department-ID :
+                </td>
+                <td>
+                  <p id="dept-id">Dept-id</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Salary :
+                </td>
+                <td>
+                  <p id="salary">Salary</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Ph.No :
+                </td>
+                <td>
+                  <p id="ph.no">Ph.No</p>
+                </td>
+                <td class="icon-edit-col">
+                  <button id="edit_phno">
+                    <i class="material-icons edit_icon">
+                      mode_edit
+                    </i>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Password :
+                </td>
+                <td>
+                  <p id="password">******</p>
+                </td>
+                <td class="icon-edit-col">
+                  <button id="edit_password">
+                    <i class="material-icons edit_icon">
+                      mode_edit
+                    </i>
+                  </button>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="box edit_box">
+          <div class="edit_pswrd">
+            <form method="post" class="edit_pwd">
+              <div class="form">
+                <input
+                  type="text"
+                  name="O-password"
+                  autocomplete="off"
+                  required
+                />
+                <label for="O-password" class="label-name">
+                  <span class="content-name">Old password :</span>
+                </label>
+              </div>
+              <br />
+              <div class="form">
+                <input
+                  type="text"
+                  name="N-password"
+                  autocomplete="off"
+                  required
+                />
+                <label for="N-password" class="label-name">
+                  <span class="content-name">New password :</span>
+                </label>
+              </div>
+              <br />
+              <div class="login">
+                <input
+                  type="button"
+                  value="submit"
+                  id="submit"
+                  class="btn btn-full"
+                />
+              </div>
+            </form>
+          </div>
+          <br />
+          <div class="edit_number">
+            <form method="post" class="edit_phno">
+              <div class="form">
+                <input type="number" name="ph.no" autocomplete="off" required />
+                <label for="ph.no" class="label-name">
+                  <span class="content-name">Ph.No :</span>
+                </label>
+              </div>
+              <br />
+              <div class="login">
+                <input
+                  type="button"
+                  value="submit"
+                  id="submit"
+                  class="btn btn-full"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="../../js/profile.js"></script>
+  </body>
+</html>
