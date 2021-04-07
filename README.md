@@ -13,6 +13,6 @@ A simple project for introduction to web-development
 
 #It is our first project sorry in case of convention faults
 #Developed by :
-  Krishna Chaitanya Y
-  Raja Sekhar M
+  1.Krishna Chaitanya Y
+  2.Raja Sekhar M
   
