@@ -23,5 +23,5 @@ A simple project for introduction to web-development
 - Project Asiigning System
 
 ##Project done BY :
-- [Y. Krishna Chaitanya](krishnachaitanyayerrapatruni@gmail.com)
+- [Y. Krishna Chaitanya](https://github.com/Krishnachaitanya-learn/)
 - M. Raja Sekhar
