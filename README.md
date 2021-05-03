@@ -21,3 +21,7 @@ A simple project for introduction to web-development
 ##Main Functionalites in the project
 - Employee Leave System
 - Project Asiigning System
+
+##Project done BY :
+- [Y. Krishna Chaitanya](krishnachaitanyayerrapatruni@gmail.com)
+- M. Raja Sekhar
