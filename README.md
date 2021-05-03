@@ -8,6 +8,7 @@ A simple project for introduction to web-development
 - JS
 - PHP
 - SQL
+
 ##Project Requirements
 - _VSCode_ ( Any code editor can be used)
 - _XAMPP_ ( or WAMPP )
